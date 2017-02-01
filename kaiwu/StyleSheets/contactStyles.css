@@ -1,0 +1,185 @@
+/* For 开悟教育
+由侯喆(目前在美国马萨诸塞州攻读信息技术研究生学位)个人友情制作, 版权归个人及开悟教育所有;
+电子邮箱: joyhou822@gmail.com; 电话: +1-774578-5589.
+*/
+
+/* General Styles */
+* {
+    font-family: 冬青正黑, 微软雅黑, "宋体", 'Open Sans','Helvetica Neue',Arial,
+    'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+    width: 90%;
+    margin: 20px auto;
+}
+
+body {
+    background-color: rgb(241,241,236);
+    background-image: url("background.gif");
+    background-repeat: repeat-x;
+    background-position: right top;
+}
+
+body header a {
+    display: block;
+    float: right;
+    clear: right;
+    text-align: right;
+}
+
+/* Logo Styles */
+
+body header img#logo {
+    margin: 10px auto 10px auto;
+    width: 60%;
+    text-align: center;
+
+}
+
+body header img#QR {
+    display: block;
+    width: 11%;
+    float: right;
+    margin-right: 80px;
+}
+
+/* Navigation Styles */
+
+nav ul li a {
+    width: 15%;
+}
+
+nav ul li {
+    display: block;
+    list-style: none;
+    width: 12%;
+    float: left;
+    margin-right: 35px;
+
+}
+
+nav ul {
+    margin-top: 60px;
+    width: 130%;
+}
+
+nav ul li#home {
+    margin-left: -100px;
+}
+
+/* Validation Styles */
+input:focus {
+    background-color: #a3ffc7;
+}
+
+input:focus:valid {
+    background: #a3ffc7 url(go.png) bottom right no-repeat;
+
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+input:focus:invalid {
+    background: rgb(255,232,233) url("stop.png") bottom right no-repeat;
+
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+/* Form styles */
+
+fieldset {
+    width: 80%;
+    margin: 10px -80px 10px 20px;
+    background-color: rgba(91,200,102,0.5);
+    border: 2px double #1f4758;
+
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+
+    float: left;
+}
+
+fieldset input {
+    width: 150px;
+    display: block;
+
+}
+
+fieldset label {
+    display: block;
+    float: left;
+    font-family: sans-serif;
+    width: 90%;
+    margin: 10px 20px 10px 5px;
+}
+#note {
+    width: 80%;
+    float: none;
+    height: 145px;
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+}
+
+label#news input {
+    display: inline;
+    float: none;
+    width: 20px;
+    clear: left;
+    margin: 5px;
+}
+
+select {
+    width: 15%;
+    display: block;
+    float: left;
+    font-size: 0.9em;
+    margin: 7px 0;
+}
+label#replyLabel {
+    margin: 7px;
+}
+
+#required {
+    color: red;
+}
+/* Contact Information styles */
+
+section#information {
+    width: 20%;
+    display: block;
+    float: left;
+    color: saddlebrown;
+    line-height: 1.4em;
+}
+
+/* Button styles */
+
+form p#button {
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+}
+
+form p#button input {
+    width: 150px;
+    float: none;
+    display: inline;
+    height: 40px;
+    font-size: 1.2em;
+}
+
+/* Footer Styles */
+
+footer {
+    display: block;
+    clear: left;
+    border-top: 2px solid black;
+    font-size: 0.8em;
+    text-align: center;
+    color: gray;
+}

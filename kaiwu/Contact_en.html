@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+
+    <meta name="keywords" content="Xue Ze Kai Wu Education" />
+    <meta name="description" content="Xue Ze Kai Wu Education"/>
+    <meta name="copyright" content="Xue Ze Kai Wu Education"/>
+
+    <script src="modernizr-1.5.js"></script>
+
+    <link href="StyleSheets/contactStyles.css" rel="stylesheet" />
+
+    <SCRIPT LANGUAGE="JavaScript">
+
+        function MM_preloadImages() { //v1.2
+            if (document.images) {
+                var imgFiles = MM_preloadImages.arguments;
+                var preloadArray = new Array();
+                for (var i=0; i<imgFiles.length; i++) {
+                    preloadArray[i] = new Image;
+                    preloadArray[i].src = imgFiles[i];
+                }
+            }
+        }
+
+        function MM_swapImage() { //v1.0
+            var i,theObj,j=0,swapArray=new Array,oldArray=document.MM_swapImgData;
+            for (i=0; i < (MM_swapImage.arguments.length-2); i+=3) {
+                theObj = eval(MM_swapImage.arguments[(navigator.appName == 'Netscape')?i:i+1])
+                if (theObj != null) {
+                    swapArray[j++] = theObj;
+                    swapArray[j++] = (oldArray==null || oldArray[j-1]!=theObj)?theObj.src:oldArray[j];
+                    theObj.src = MM_swapImage.arguments[i+2];
+                } }
+            document.MM_swapImgData = swapArray; //used for restore
+        }
+
+    </SCRIPT>
+    <SCRIPT LANGUAGE="JavaScript">
+
+        function MM_swapImgRestore() { //v1.0
+            if (document.MM_swapImgData != null)
+                for (var i=0; i<(document.MM_swapImgData.length-1); i+=2)
+                    document.MM_swapImgData[i].src = document.MM_swapImgData[i+1];
+        }
+
+    </SCRIPT>
+
+
+
+    <!--
+    Produced by Joy Hou, who is processing Master degree of Information Technology at CLark University, Worcester, MA;
+    Email: joyhou822@gmail.com; Phone number: +1-774-578-5589.
+
+    -->
+<body>
+<header>
+    <img id="logo" src="其他/bbbb.gif">
+    <img id="QR" src="其他/QR%20code.png">
+
+</header>
+
+
+<nav>
+    <ul>
+        <li id="home" >
+
+            <A HREF="homepage_en.html"
+               ONMOUSEOVER="MM_swapImage('document.home','document.home','home2.gif','MM_swapImage1')"
+               ONMOUSEOUT="MM_swapImgRestore()">
+                <IMG SRC="home1.gif" BORDER=0 ALT="Home" NAME="home"></A>
+        </li>
+
+        <li><A HREF="Education_en.html"
+               ONMOUSEOVER="MM_swapImage('document.teaching','document.teaching','teaching2.gif','MM_swapImage1')"
+               ONMOUSEOUT="MM_swapImgRestore()">
+            <IMG SRC="teaching1.gif" BORDER=0 ALT="Teaching" NAME="teaching"></A></li>
+        <li><A HREF="Courses_en.html"
+               ONMOUSEOVER="MM_swapImage('document.courses','document.courses','courses2.gif','MM_swapImage1')"
+               ONMOUSEOUT="MM_swapImgRestore()">
+            <IMG SRC="courses1.gif" BORDER=0 ALT="courses" NAME="courses"></A></li>
+        <li><A HREF="About_en.html"
+               ONMOUSEOVER="MM_swapImage('document.about','document.about','about2.gif','MM_swapImage1')"
+               ONMOUSEOUT="MM_swapImgRestore()">
+            <IMG SRC="about1.gif" BORDER=0 ALT="about" NAME="about"></A></li>
+        <li><A HREF="Material_en.html"
+               ONMOUSEOVER="MM_swapImage('document.information','document.information','information.gif','MM_swapImage1')"
+               ONMOUSEOUT="MM_swapImgRestore()">
+            <IMG SRC="information1.gif" BORDER=0 ALT="information" NAME="information"></A></li>
+        <li><A HREF="Contact_en.html"
+               ONMOUSEOVER="MM_swapImage('document.contact','document.contact','contact2.gif','MM_swapImage1')"
+               ONMOUSEOUT="MM_swapImgRestore()">
+            <IMG SRC="contact.gif" BORDER=0 ALT="contact" NAME="contact"></A></li>
+    </ul>
+</nav>
+
+<section id="information">
+    <img src="其他/logo.gif">
+
+    <p id="ContactInfo">
+        Address: 58 Gang Tie St. Apt.908, Baotou City, Inner Mongolia<br />
+        Tel: +86-0472-2795255<br />
+        Email: <a href="mailto:Kaiwuedu@163.com">Kaiwuedu@163.com</a><br /><br />
+        <br /><br />
+        WeChat QR code
+        <img src="其他/QR%20code.png">
+    </p>
+</section>
+
+<section>
+    <p id="required">All the * events are required</p>
+
+    <form id="contact" name="contact"
+          action="#"
+          method="post">
+
+        <fieldset>
+
+            <label for="fName">First Name *</label>
+            <input name="fName" id="fName"
+                   required="required"/>
+
+            <label for="lName">Last Name *</label>
+            <input name="lName" id="lName"
+                   required="required"/>
+
+            <label for="city">City</label>
+            <input name="city" id="city" placeholder="Baotou" />
+
+            <label for="state">State</label>
+            <input name="state" id="state" placeholder="Inner Mongolia" />
+
+            <label for="phone">Phone number *</label>
+            <input name="phone" id="phone" type="tel" required="required"
+                   placeholder="+86(nnn)nnnn-nnnn" />
+
+            <label for="email">Email *</label>
+            <input name="email" id="email" type="email" required="required" />
+
+            <label for="note">Please leave us a message *</label>
+            <textarea name="note" id="note"></textarea>
+
+            <label for="reply" id="replyLabel">What contact way are you prefer?</label>
+            <select name="reply" id="reply">
+                <option value="type1">Phone</option>
+                <option value="type2">Email</option>
+            </select>
+
+            <label id="news">
+                <input type="checkbox" name="news" checked="checked">
+                I want to receive news from Kai Wu Education</label>
+        </fieldset>
+
+        <p id="button">
+            <input type="submit" value="Send Order">
+            <input type="reset" value="Cancel Order">
+        </p>
+
+        </form>
+    </section>
+
+
+
+</body>
+
+<footer>
+    <br />Kai Wu Education Inc. &copy;2016.All copyrights reserved. <br />Designed by Zhe Hou.<br />
+    Best be viewed in (up to) 1280 X 800/1024 screen resolution in 16 bit color.<br />
+    Address: 58 Gang Tie St.<br />Apt.908 <br />Baotou City, Inner Mongolia
+</footer>
+</html>

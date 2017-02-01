@@ -1,0 +1,147 @@
+/* For 开悟教育
+由侯喆(目前在美国马萨诸塞州攻读信息技术研究生学位)个人友情制作, 版权归个人及开悟教育所有;
+电子邮箱: joyhou822@gmail.com; 电话: +1-774578-5589.
+*/
+
+/* General Styles */
+* {
+    font-family: 冬青正黑, 微软雅黑, "宋体", 'Open Sans','Helvetica Neue',Arial,
+    'Hiragino Sans GB','Microsoft YaHei','WenQuanYi Micro Hei',sans-serif;
+    width: 90%;
+    margin: 20px auto;
+}
+
+body {
+    background-color: rgb(241,241,236);
+    background-image: url("background.gif");
+    background-repeat: repeat-x;
+    background-position: right top;}
+
+body header a {
+    display: block;
+    float: right;
+    clear: right;
+    text-align: right;
+}
+
+/* Logo Styles */
+
+body header img {
+    margin: 10px auto 10px auto;
+    width: 60%;
+    text-align: center;
+
+}
+
+/* Navigation Styles */
+
+nav#horizon ul li a {
+    width: 15%;
+}
+
+nav#horizon ul li {
+    display: block;
+    list-style: none;
+    width: 12%;
+    float: left;
+    margin-right: 35px;
+
+}
+
+nav#horizon ul {
+    width: 130%;
+    margin-top: 60px;
+}
+
+nav#horizon ul li#home {
+    margin-left: -100px;
+}
+
+nav#horizon ul li#home {
+    margin-left: -100px;
+}
+
+nav#vertical ul {
+    display: block;
+    float: left;
+    margin-left: -240px;
+    margin-top: 20px;
+    width: 20%;
+    position: fixed;
+    top: 320px;
+}
+
+nav#vertical ul li {
+    display: block;
+    width: 60%;
+    height: 25px;
+    background-color: lightskyblue;
+    padding: 5px;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+nav#vertical ul li:hover {
+    background-color:dodgerblue;
+}
+
+nav#vertical ul li a {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+/* article styles */
+
+body section p#article {
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+body {
+    color: saddlebrown;
+}
+
+body a.material {
+    display: block;
+    float: left;
+    clear: left;
+    color: brown;
+    text-shadow: 1px 1px 2px grey;
+    line-height: 0.8em;
+    font-size: 1.3em;
+    width: 80%;
+
+
+}
+
+body section article {
+    display: block;
+    float: left;
+    margin-left: 50px;
+    width: 80%;
+    margin-bottom: 80px;
+    border: 3px dotted seagreen;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 10px;
+
+}
+
+body a.material:hover {
+    text-shadow: none;
+}
+
+/* Footer Styles */
+
+footer {
+    display: block;
+    clear: left;
+    border-top: 2px solid black;
+    font-size: 0.8em;
+    text-align: center;
+    color: gray;
+}
