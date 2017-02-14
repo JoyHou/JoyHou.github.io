@@ -26,11 +26,18 @@ body header a {
 
 /* Logo Styles */
 
-body header img {
+body header img#logo {
     margin: 10px auto 10px auto;
-    width: 60%;
+    width: 50%;
     text-align: center;
 
+}
+
+body header img#QR {
+    display: block;
+    width: 9%;
+    float: right;
+    margin-right: 80px;
 }
 
 /* Navigation Styles */
@@ -42,26 +49,159 @@ nav ul li a {
 nav ul li {
     display: block;
     list-style: none;
-    width: 12%;
+    width: 13%;
     float: left;
-    margin-right: 35px;
+    margin-right: 5%;
 
 }
 
 nav ul {
     width: 130%;
+    margin-top: 50px;
 }
 
 nav ul li#home {
     margin-left: -100px;
 }
 
+/* Head styles */
+
+section h1 {
+    color: rgb(90,127,0);
+    text-shadow: black 1px 1px 2px, rgba(90,127,0,0.7) 5px 5px 10px;
+    font-size: 3.0em;
+}
+
+/* Figure styles */
+
+section {
+    width: 120%;
+}
+
+section figure.bigPhoto {
+    width: 30%;
+    display: block;
+    float: left;
+    margin: 3% 5%;
+}
+
+section figure.bigPhoto img {
+    margin: 2% 5% 2% 2%;
+}
+
+section figure.bigPhoto2 {
+    width: 35%;
+    display: block;
+    float: left;
+    margin: 4% 4% 10% 4%;
+}
+
+section figure.bigPhoto2 figcaption {
+    display: block;
+    margin-bottom: -20px ;
+
+}
+
+section figure.smallPhoto {
+    display: block;
+    width: 20%;
+    float: left;
+    margin: 20px 5% 3% 5%;
+}
+
+section figure figcaption {
+    color: slategray;
+}
+
+section figure img {
+    border-radius: 20px;
+
+    box-shadow: inset rgb(0,101,51) 10px 15px 15px,rgb(51,51,51) -10px -10px 20px;
+    -moz-box-shadow: inset rgb(0,101,51) 10px 15px 15px,rgb(0,0,0) -10px -10px 20px;
+    -webkit-box-shadow: inset rgb(0,101,51) 10px 15px 15px,rgb(0,0,0) -10px -10px 20px;
+}
+
+section figure#photoA {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+section figure#photoB {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+section figure#photoC {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+section figure#photoD {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+section figure#photo1 {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+section figure#photo2 {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+section figure#photo3 {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+section figure#photo4 {
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+
+section figure#photo5 {
+    margin-top: -40px;
+}
+
+section figure#photo6 {
+    margin-top: 100px;
+}
+
 /* Footer Styles */
 
 footer {
     display: block;
+    clear: left;
     border-top: 2px solid black;
     font-size: 0.8em;
     text-align: center;
     color: gray;
+    line-height: 15px;
+
 }

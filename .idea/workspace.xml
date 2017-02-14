@@ -44,7 +44,7 @@
       <file leaf-file-name="homepage_en.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kaiwu/homepage_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.354839">
+            <state vertical-scroll-proportion="0.0">
               <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
               <folding />
             </state>
@@ -54,8 +54,18 @@
       <file leaf-file-name="Education_en.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kaiwu/Education_en.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9354839">
-              <caret line="175" column="7" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.19354838">
+              <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eduStyles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kaiwu/StyleSheets/eduStyles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.580645">
+              <caret line="207" column="0" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,7 +74,7 @@
       <file leaf-file-name="Education.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kaiwu/Education.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="14.903226">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -81,6 +91,7 @@
       <list>
         <option value="$PROJECT_DIR$/kaiwu/index.html" />
         <option value="$PROJECT_DIR$/kaiwu/homepage_en.html" />
+        <option value="$PROJECT_DIR$/kaiwu/StyleSheets/eduStyles.css" />
         <option value="$PROJECT_DIR$/kaiwu/Education_en.html" />
       </list>
     </option>
@@ -91,8 +102,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="23" />
+    <option name="x" value="-12" />
+    <option name="y" value="145" />
     <option name="width" value="1400" />
     <option name="height" value="833" />
   </component>
@@ -121,6 +132,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,9 +165,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JoyHou.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JoyHou.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kaiwu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="StyleSheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -228,7 +257,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1400" height="833" extended-state="0" />
+    <frame x="-12" y="145" width="1400" height="833" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24945612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -276,6 +305,22 @@
     <entry file="file://$PROJECT_DIR$/kaiwu/homepage_en.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaiwu/Education_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaiwu/Education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -299,7 +344,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kaiwu/homepage_en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.354839">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaiwu/About.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaiwu/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaiwu/homepage_en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
           <folding />
         </state>
@@ -307,16 +376,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kaiwu/Education.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="14.903226">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kaiwu/StyleSheets/eduStyles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.580645">
+          <caret line="207" column="0" selection-start-line="207" selection-start-column="0" selection-end-line="207" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kaiwu/Education_en.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9354839">
-          <caret line="175" column="7" selection-start-line="175" selection-start-column="7" selection-end-line="175" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.19354838">
+          <caret line="148" column="4" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
           <folding />
         </state>
       </provider>
