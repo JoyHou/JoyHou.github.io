@@ -81,14 +81,14 @@ section {
 section figure.bigPhoto {
     width: 30%;
     display: block;
-    float: left;
-    margin: 3% 5%;
+    float: left;}
+   /* margin: 3% 5%;
 }
 
 section figure.bigPhoto img {
     margin: 2% 5% 2% 2%;
 }
-
+*/
 section figure.bigPhoto2 {
     width: 35%;
     display: block;
@@ -120,7 +120,7 @@ section figure img {
     -moz-box-shadow: inset rgb(0,101,51) 10px 15px 15px,rgb(0,0,0) -10px -10px 20px;
     -webkit-box-shadow: inset rgb(0,101,51) 10px 15px 15px,rgb(0,0,0) -10px -10px 20px;
 }
-
+/*
 section figure#photoA {
     -webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
@@ -184,7 +184,7 @@ section figure#photo4 {
     -o-transform: rotate(-20deg);
     transform: rotate(-20deg);
 }
-
+*/
 section figure#photo5 {
     margin-top: -40px;
 }
