@@ -9,14 +9,21 @@
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
     <script src="https://unpkg.com/jquery@3.1.0/dist/jquery.min.js"></script>
     <script type="text/babel" src="Grid.js"></script>
+
+    <link rel="stylesheet" href="Grid.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style="margin: 20px auto; width: 300px">
-    <h1 style="margin: auto; width: 200px">Grid Game</h1>
-    <p>
-        In each cell, input a number between 1-9 (each number can only be used once).
-        If the sum of cells in every row, column and diagonal line equals to 15,
-        you win.
-    </p>
-    <div id="content" style="margin: auto; width: 220px"></div>
+<body>
+    <div class="container-fluid">
+        <h1>Grid Game</h1>
+        <p>
+            In each cell, input a number between 1-9 (each number can only be used once).
+            If the sum of cells in every row, column and diagonal line equals to 15,
+            you win.
+        </p>
+        <div id="content"></div>
+    </div>
 </body>
 </html>

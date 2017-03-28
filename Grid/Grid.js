@@ -35,20 +35,16 @@ var Nest = React.createClass({
             }
             sumColoum.push(temp);
         };
-        console.log(sumRow);
 
         for (let i=0; i<oldData.length; i++) {
             duijiaoxian1 += Number(oldData[i][i]);
         };
-        console.log(duijiaoxian1);
         for (let i=0, j=oldData.length - 1; i<oldData.length, j>=0; i++, j--) {
             duijiaoxian2 += Number(oldData[i][j]);
         }
 
         let rowEqualJudge = sumRow.reduce((a, b) => a === b  ? a : false, 15);
-        console.log(rowEqualJudge);
         let coloumEqualJudge = sumColoum.reduce((a, b) => a === b ? a : false, 15);
-        console.log(coloumEqualJudge);
 
         if (rowEqualJudge && coloumEqualJudge && duijiaoxian1 === 15 && duijiaoxian2 === 15) {
             alert("Congratulations!");
@@ -64,24 +60,25 @@ var Nest = React.createClass({
 
             for (let j=0; j< data[0].length;j++) {
                 cellsInOneRow.push(
-                <Cell key={""+i+j} row={i} column={j} number={data[i][j]}
-                onChange={this.pushNumberToData}
-            />
-            );
+                    <Cell key={""+i+j} row={i} column={j} number={data[i][j]}
+                    onChange={this.pushNumberToData}
+                    />
+                );
             }
 
             allRows.push(
-            <tr key = {i}>
-                {cellsInOneRow}
+                <tr key = {i}>
+                    {cellsInOneRow}
                 </tr>
-        );
+            );
         }
+
         return (
             <table style={{borderCollapse: 'collapse', width:'200px', height:'200px'}}>
-        <tbody>
-        {allRows}
-        </tbody>
-        </table>
+                <tbody>
+                    {allRows}
+                </tbody>
+            </table>
         );
     }
 });
