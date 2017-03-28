@@ -66,13 +66,16 @@ class StopWatch extends React.Component {
 
     render() {
         let lapsRow =[];
+        let keepTwoDigit = function(time) {
+            return time < 10 ? "0" + time : time;
+        };
 
         for (let i=0; i<this.state.laps.length; i++) {
             let lapsFormat = new Date(this.state.laps[i]);
-            let lapsHour = lapsFormat.getUTCHours();
-            let lapsMinute = lapsFormat.getMinutes();
-            let lapsSecond = lapsFormat.getSeconds();
-            let lapsSecondMinus = Math.floor(lapsFormat.getMilliseconds()/10);
+            let lapsHour = keepTwoDigit(lapsFormat.getUTCHours());
+            let lapsMinute = keepTwoDigit(lapsFormat.getMinutes());
+            let lapsSecond = keepTwoDigit(lapsFormat.getSeconds());
+            let lapsSecondMinus = keepTwoDigit(Math.floor(lapsFormat.getMilliseconds()/10));
             lapsRow.push(
                 <tr>
                     <td className="lapKey">{i+1}</td>
@@ -83,10 +86,10 @@ class StopWatch extends React.Component {
         }
 
         let date = new Date(this.state.time);
-        let hour = date.getUTCHours();
-        let minute = date.getMinutes();
-        let second = date.getSeconds();
-        let secondMinus = Math.floor(date.getMilliseconds()/10);
+        let hour = keepTwoDigit(date.getUTCHours());
+        let minute = keepTwoDigit(date.getMinutes());
+        let second = keepTwoDigit(date.getSeconds());
+        let secondMinus = keepTwoDigit(Math.floor(date.getMilliseconds()/10));
 
         return (
             <div>
