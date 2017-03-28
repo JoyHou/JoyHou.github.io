@@ -1,0 +1,37 @@
+
+
+* {
+    background-color: beige;
+}
+
+.container-fluid {
+    padding: 30px;
+}
+button {
+    margin: 10px;
+
+}
+
+.lapsRecord {
+    margin: 30px auto;
+}
+
+.time {
+    display: block;
+    margin: 20px auto;
+    padding-top: 20px;
+    text-align: center;
+    width: 50%;
+    height: 80px;
+    font-size: x-large;
+    /*background-color: lightblue;*/
+
+
+}
+.buttonGroup {
+    display: block;
+    margin: auto;
+    text-align: center;
+
+}
+
