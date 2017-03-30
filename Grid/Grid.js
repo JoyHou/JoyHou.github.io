@@ -10,7 +10,8 @@ var Nest = React.createClass({
                 [null, null, null],
                 [null, null, null],
                 [null, null, null]
-            ]
+            ],
+            winState: false
         };
     },
 
@@ -47,12 +48,15 @@ var Nest = React.createClass({
         let coloumEqualJudge = sumColoum.reduce((a, b) => a === b ? a : false, 15);
 
         if (rowEqualJudge && coloumEqualJudge && duijiaoxian1 === 15 && duijiaoxian2 === 15) {
-            alert("Congratulations!");
-        };
+            this.setState({winState: true})
+        } else {
+            this.setState({winState: false})
+        }
     },
 
     render: function() {
         const data = this.state.data;
+        let winState = null;
         let allRows = [];
 
         for (let i =0; i< data.length; i++) {
@@ -73,12 +77,21 @@ var Nest = React.createClass({
             );
         }
 
+        if (this.state.winState) {
+            winState = "Congratulations!"
+        }
+
         return (
-            <table style={{borderCollapse: 'collapse', width:'200px', height:'200px'}}>
-                <tbody>
-                    {allRows}
-                </tbody>
-            </table>
+            <div>
+                <p className="alert alert-success" style={{fontSize: 'large'}}>
+                    {winState}</p>
+                <table className="nest"
+                    style={{borderCollapse: 'collapse', width:'200px', height:'200px'}}>
+                    <tbody>
+                        {allRows}
+                    </tbody>
+                </table>
+            </div>
         );
     }
 });
@@ -105,7 +118,7 @@ var Cell = React.createClass({
 })
 
 ReactDOM.render(
-<Nest />,
+<Nest style={{textAlign: 'center', margin: 'auto'}}/>,
     document.getElementById('content')
 )
 

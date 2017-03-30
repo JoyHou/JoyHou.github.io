@@ -1,3 +1,25 @@
 * {
     background-color: beige;
 }
+
+#description {
+    width: 400px;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1.2em;
+}
+
+.col-sm-6 {
+    text-align: center;
+
+}
+.nest {
+    margin: 30px auto;
+    text-align: center;
+    width: 70%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
