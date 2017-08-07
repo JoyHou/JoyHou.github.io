@@ -3,8 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>test</title>
+    <style>
+        img {
+            opacity: 0.3;
+        }
+        div p::first-letter{
+            font-size: 3em;
+        }
+        div p::before {
+            content: url("http://images.clipartpanda.com/smiley-face-star-clipart-happy-face-clip-art-black-and-white-212.jpg");
+        }
+        div p::after {
+            content: url("https://s-media-cache-ak0.pinimg.com/736x/1d/e7/ea/1de7eaec977f9dfc7dae835e8bdc8b41--emoji-faces-smile-face.jpg");
+        }
+    </style>
 </head>
 <body>
-    <input type="checkbox" checked="">
+<div>
+    <p>content</p>
+    <img src="https://www.picmonkey.com/_/static/images/index/picmonkey_twitter_02.24fd38f81e59.jpg" id="1" alt="pic">
+</div>
 </body>
 </html>
